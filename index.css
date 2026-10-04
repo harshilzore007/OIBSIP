@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold-glow: rgba(245, 158, 11, 0.16);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #faf8f5;
+    color: #1c1917;
+    overflow-x: hidden;
+  }
+
+  /* Custom Slim Warm Stone Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f5f2eb;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d6d3d1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d97706;
+  }
+}
+
+/* Elegant Light Artisan Card Styling */
+.artisan-card {
+  background: #ffffff;
+  border: 1px solid rgba(28, 25, 23, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(44, 34, 24, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.artisan-card:hover {
+  border-color: rgba(217, 119, 6, 0.35);
+  box-shadow: 0 8px 30px -4px rgba(44, 34, 24, 0.08), 0 0 15px -3px rgba(245, 158, 11, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Gold Accent Pill */
+.gold-pill {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(217, 119, 6, 0.06) 100%);
+  border: 1px solid rgba(217, 119, 6, 0.25);
+  color: #b45309;
+}
+
+/* Glass Floating Panel (Light) */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(231, 229, 228, 0.85);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
