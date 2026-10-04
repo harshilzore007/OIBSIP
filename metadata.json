@@ -1,0 +1,6 @@
+{
+  "name": "PizzaCraft - Artisan Pizza Delivery & Inventory",
+  "description": "Full-stack pizza delivery and inventory platform featuring custom pizza builder, Razorpay & COD checkout, real-time live order tracking, admin dashboard with inventory decrement and automated node-cron stock threshold alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
